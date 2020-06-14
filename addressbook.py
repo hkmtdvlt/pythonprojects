@@ -13,7 +13,7 @@ def add_name(name,number): # Function to add names and numbers
 print("Press 'q' to quit") 
 
 while True: # Loop to keep program alive until write 'q' 
-	name=input("Write Contact Name: \n") 
+	name=input("Write contact name: \n") 
 	if name =='q': #Control if user text 'q' or not
 		break # stop the loop
 	number=input("Write the Contact Number: \n")
